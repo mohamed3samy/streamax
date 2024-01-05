@@ -47,6 +47,7 @@ const movies = await basicFetch<Movies>(`${POPULAR_BASE_URL}&page=${1}`);
     position: relative;
     height: 100vh;
     overflow-y: scroll;
+    overflow-x: hidden;
   }
 
   .text-header {

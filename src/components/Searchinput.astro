@@ -30,8 +30,12 @@
       border-color: rgb(165 243 252 / 1);
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 720px) {
       width: 24rem;
+    }
+
+    @media (max-width: 720px) {
+      width: 8rem;
     }
   }
 
@@ -39,5 +43,9 @@
     position: absolute;
     right: 20px;
     top: 8px;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 </style>
